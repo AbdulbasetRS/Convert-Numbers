@@ -59,4 +59,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Separation of concerns for language and currency handling
 - Utility classes for common formatting operations
 
-[1.0.0]: https://github.com/username/convert-numbers/releases/tag/v1.0.0
+[1.0.0]: https://github.com/AbdulbasetRS/Convert-Numbers/releases/tag/v1.0.0
