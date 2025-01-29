@@ -1,0 +1,45 @@
+{
+    "name": "abdulbaset/convert-numbers",
+    "description": "A PHP package to convert numbers to words and currencies in multiple languages",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://digitalatum.com",
+    "authors": [
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "AbdulbasetRedaSayedHF@Gmail.com",
+            "homepage": "https://linkedin.com/in/abdulbaset-r-sayed",
+            "role": "Developer"
+        },
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "Abdulbaset_RS@DigitalAtum.com",
+            "homepage": "https://linkedin.com/in/abdulbaset-r-sayed",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Abdulbaset\\ConvertNumbers\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "keywords": [
+        "number-to-words",
+        "numbers to words",
+        "php package",
+        "currency converter",
+        "number conversion",
+        "currency to words",
+        "multi-language",
+        "arabic numbers",
+        "english numbers",
+        "number-to-text",
+        "php library",
+        "words converter",
+        "currency formatter"
+    ]
+}
