@@ -4,45 +4,6 @@
 
 A comprehensive PHP package for number conversion, supporting multiple languages and various conversion types.
 
-## Features
-
-### 1. Number to Words Conversion
-
-- Convert integers and decimal numbers to words
-- Support for negative numbers
-- Decimal point handling
-- Language-specific formatting
-
-### 2. Currency Handling
-
-- Convert currency amounts to words
-- Format currency with proper separators
-- Optional currency symbol display
-- Support for multiple currencies:
-  - USD (US Dollar)
-  - EUR (Euro)
-  - EGP (Egyptian Pound)
-  - SAR (Saudi Riyal)
-
-### 3. File Size Formatting
-
-- Convert bytes to human-readable formats
-- Automatic unit selection (B, KB, MB, GB, TB, PB)
-- Language-specific unit names
-- Customizable decimal places
-
-### 4. Multi-language Support
-
-- Arabic (ar)
-- English (en)
-- French (fr)
-
-### 5. Number Formatting
-
-- Language-specific decimal separators
-- Thousands separators
-- Arabic numeral conversion
-
 ## Installation
 
 Install the package via Composer:
@@ -132,6 +93,69 @@ The package follows SOLID principles and clean architecture:
 4. **Dependency Inversion Principle (DIP)**
    - High-level modules depend on abstractions
    - Easy to swap implementations
+
+## Features
+
+### 1. Number to Words Conversion
+
+- Convert integers and decimal numbers to words
+- Support for negative numbers
+- Decimal point handling
+- Language-specific formatting
+
+### 2. Currency Handling
+
+- Convert currency amounts to words
+- Format currency with proper separators
+- Optional currency symbol display
+- Support for multiple currencies:
+  - USD (US Dollar)
+  - EUR (Euro)
+  - EGP (Egyptian Pound)
+  - SAR (Saudi Riyal)
+
+### 3. File Size Formatting
+
+- Convert bytes to human-readable formats
+- Automatic unit selection (B, KB, MB, GB, TB, PB)
+- Language-specific unit names
+- Customizable decimal places
+
+### 4. Multi-language Support
+
+- Arabic (ar)
+- English (en)
+- French (fr)
+
+### 5. Number Formatting
+
+- Language-specific decimal separators
+- Thousands separators
+- Arabic numeral conversion
+
+## Use Cases
+
+Here are some practical scenarios where this package can be useful:
+
+### 📄 Invoices & Legal Documents
+
+- Convert numbers to words in invoices and contracts for better clarity.
+- Display financial amounts in words to ensure legal accuracy.
+
+### 💰 Financial & Accounting Applications
+
+- Format and display monetary values properly.
+- Convert currency values into readable words for multi-language support.
+
+### 🛍 CMS & E-commerce Platforms
+
+- Improve user experience by displaying formatted numbers in different languages.
+- Show file sizes in a human-readable format for media uploads.
+
+### 🌍 Multi-language Applications
+
+- Convert numeric values to words in different languages without extra dependencies.
+- Provide better localization for global users.
 
 ## Contributing
 
